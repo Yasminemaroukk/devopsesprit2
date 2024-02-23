@@ -10,7 +10,7 @@ pipeline {
 
        stage('Récupération du code source') {
             steps {
-                git 'https://github.com/Yasminemaroukk/devopsesprit'
+                git 'https://github.com/Yasminemaroukk/devopsesprit2'
             }
         }    
         
