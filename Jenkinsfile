@@ -6,12 +6,11 @@ pipeline {
         pollSCM 'H/5 * * * *'
     }
         stages {
-
-
-           
-        
-
-    
+        stage('Récupération du code source') {
+            steps {
+                git 'git@github.com:Yasminemaroukk/devopsesprit2.git'
+            }
+        } 
         stage('Affichage de la date système') {
             steps {
                 // Cette étape affiche la date système
