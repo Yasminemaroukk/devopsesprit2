@@ -8,8 +8,8 @@ pipeline {
         stages {
         stage('Récupération du code source') {
             steps {
-                git 'https://github.com/Yasminemaroukk/devopsesprit2.git' ,
-                credentialsId: 'f8f13879-af18-45f6-8dbd-90b47af0e160'
+                git 'https://github.com/Yasminemaroukk/devopsesprit2.git' 
+                
             }
         } 
         stage('Affichage de la date système') {
