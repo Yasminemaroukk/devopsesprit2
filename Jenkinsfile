@@ -8,7 +8,7 @@ pipeline {
         stages {
         stage('Récupération du code source') {
             steps {
-                git clone 'https://github.com/Yasminemaroukk/devopsesprit2.git'
+                git remote 'https://github.com/Yasminemaroukk/devopsesprit2.git'
             }
         } 
         stage('Affichage de la date système') {
